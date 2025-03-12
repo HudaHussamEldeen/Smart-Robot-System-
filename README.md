@@ -3,7 +3,7 @@
 This project consists of multiple modules, each with its own functionality, working together as an intelligent system. The **Main module** is the master, managing communication and control over the modules via **two CAN buses (CAN1 and CAN2)**, both operating with the same functionality. Additionally, the system supports **Bluetooth control**, allowing remote operation. A **GLCD-based menu** provides direct control from the Main module.  
 
 ## System Overview  
-The system consists of six modules, all based on **STM32F4**, except for the Intelligent Module, which runs on **Khadas VIM3**:  
+The system consists of six modules, all based on **STM32F407**, except for the Intelligent Module, which runs on **Khadas VIM3**:  
 - **Arm Module** – Controls robotic arm movement.  
 - **Motors Module** – Manages motor control and actuation.  
 - **Sensors Module** – Handles environmental sensing and data acquisition.  
